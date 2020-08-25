@@ -20,7 +20,7 @@
 #pragma once
 
 #include <dsn/cpp/service_app.h>
-#include <dsn/tool-api/http_server.h>
+#include <dsn/http/http_server.h>
 #include "info_collector.h"
 #include "available_detector.h"
 
