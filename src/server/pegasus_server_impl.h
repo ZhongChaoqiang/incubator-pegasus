@@ -333,6 +333,8 @@ private:
 
     ::dsn::error_code flush_all_family_columns(bool wait);
 
+    uint32_t query_data_version() const override;
+
 private:
     static const std::chrono::seconds kServerStatUpdateTimeSec;
     static const std::string COMPRESSION_HEADER;

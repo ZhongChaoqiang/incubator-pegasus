@@ -2817,5 +2817,7 @@ void pegasus_server_impl::set_ingestion_status(dsn::replication::ingestion_statu
     _ingestion_status = status;
 }
 
+uint32_t pegasus_server_impl::query_data_version() const { return _pegasus_data_version; }
+
 } // namespace server
 } // namespace pegasus
